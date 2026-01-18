@@ -41,6 +41,23 @@
   text-align: center;
 }
 
+.live-participants {
+  margin-bottom: 3rem;
+}
+
+.live-participants h2 {
+  margin-bottom: 0.5rem;
+  color: var(--tedx-white);
+  text-align: center;
+}
+
+.live-participants p {
+  text-align: center;
+  color: var(--tedx-light-gray);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
 .stat-item {
   display: flex;
   align-items: center;

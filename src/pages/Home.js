@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Globe, Calendar, Heart } from 'lucide-react';
 import EuropeMap from '../components/EuropeMap';
+import UserDistributionMap from '../components/UserDistributionMap';
 import './Home.css';
 
 const Home = () => {
@@ -77,16 +78,29 @@ const Home = () => {
         </div>
       </section>
 
-      {/* European Map Section */}
-      <section className="map-section">
+      {/* European Maps Section */}
+      <section className="maps-section">
         <div className="container">
           <h2 className="section-title text-center">
-            European <span className="text-red">Community</span> Map
+            European <span className="text-red">Community</span> Hub
           </h2>
           <p className="section-description text-center">
-            Discover where our participants are located across the EULiST alliance
+            Explore our participants across the EULiST alliance - from country overview to individual connections
           </p>
-          <EuropeMap />
+          
+          <div className="maps-grid">
+            <div className="map-card">
+              <h3>Country Distribution</h3>
+              <p>Overview of participants by country and institution</p>
+              <EuropeMap />
+            </div>
+            
+            <div className="map-card">
+              <h3>Live Participant Map</h3>
+              <p>Real-time activity - click avatars to connect</p>
+              <UserDistributionMap />
+            </div>
+          </div>
         </div>
       </section>
 

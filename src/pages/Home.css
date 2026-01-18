@@ -70,8 +70,43 @@
   padding: 4rem 0;
 }
 
-.map-section {
+.maps-section {
   padding: 4rem 0;
+}
+
+.maps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.map-card {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.map-card h3 {
+  color: var(--tedx-white);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.map-card p {
+  color: var(--tedx-light-gray);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+@media (min-width: 1200px) {
+  .maps-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 }
 
 .section-description {
