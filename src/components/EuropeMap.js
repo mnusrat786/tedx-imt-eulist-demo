@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Users, MapPin, TrendingUp, Globe } from 'lucide-react';
+import { Users, TrendingUp, Globe } from 'lucide-react';
 import './EuropeMap.css';
 
 const EuropeMap = () => {
@@ -92,7 +92,7 @@ const EuropeMap = () => {
       name: 'Italy',
       flag: '🇮🇹',
       users: 145,
-      schools: ['University of L\'Aquila (UnivAQ)', 'Politecnico di Milano', 'University of Bologna'],
+      schools: ["University of L'Aquila (UnivAQ)", 'Politecnico di Milano', 'University of Bologna'],
       position: { top: '58%', left: '45%' },
       color: '#84cc16',
       growth: '+13%'
@@ -132,7 +132,8 @@ const EuropeMap = () => {
     }, 500);
 
     return () => clearTimeout(timer);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Empty dependency array is intentional - we want this to run once on mount
 
   return (
     <div className="europe-map-container">

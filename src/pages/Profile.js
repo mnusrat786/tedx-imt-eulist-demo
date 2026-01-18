@@ -52,7 +52,7 @@ const Profile = ({ user, setUser }) => {
     'Aristotle University (Greece)',
     
     // Italy
-    'University of L\'Aquila - UnivAQ (Italy)',
+    "University of L'Aquila - UnivAQ (Italy)",
     'Politecnico di Milano (Italy)',
     'University of Bologna (Italy)',
     

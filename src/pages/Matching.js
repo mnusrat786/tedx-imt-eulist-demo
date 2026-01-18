@@ -68,7 +68,7 @@ const Matching = ({ user }) => {
     {
       id: 7,
       name: 'Giulia Rossi',
-      school: 'University of L\'Aquila',
+      school: "University of L'Aquila",
       country: 'Italy',
       interests: ['Art & Science', 'Cultural Exchange', 'Social Innovation'],
       matchScore: 77,
