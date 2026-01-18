@@ -85,10 +85,10 @@ The demo is fully responsive and works on:
 ## 🌍 European Focus
 
 The platform specifically addresses:
-- **4 European countries**: Germany, Spain, Finland, France
-- **EULiST alliance**: European University of Technology Alliance
-- **Cross-cultural connections**: Breaking geographical barriers
-- **Academic focus**: Students, researchers, and alumni
+- **10 European countries**: France, Germany, Spain, Finland, Austria, Slovakia, Czech Republic, Greece, Italy, Sweden
+- **EULiST alliance**: European University of Technology Alliance with 30+ partner institutions
+- **Cross-cultural connections**: Breaking geographical barriers across Central and Southern Europe
+- **Academic focus**: Students, researchers, and alumni from leading technical universities
 
 ## 🎯 TEDx Compliance
 
@@ -138,8 +138,8 @@ src/
 - **Theme**: "Ce qui nous relie" (What connects us)
 - **Date**: February 2027
 - **Location**: IMT Atlantique, Nantes, France
-- **Capacity**: 1,200-1,600 participants
-- **Partners**: Germany, Spain, Finland, France
+- **Capacity**: 2,100+ participants
+- **Partners**: 10 European countries with 30+ universities
 
 ## 📞 Contact
 

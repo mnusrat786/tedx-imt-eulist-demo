@@ -29,9 +29,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '1,600', label: 'Expected Participants' },
-    { number: '4', label: 'European Countries' },
-    { number: '1,000+', label: 'Connections Goal' },
+    { number: '2,100+', label: 'Expected Participants' },
+    { number: '10', label: 'European Countries' },
+    { number: '1,500+', label: 'Connections Goal' },
     { number: 'Feb 2027', label: 'Event Date' }
   ];
 

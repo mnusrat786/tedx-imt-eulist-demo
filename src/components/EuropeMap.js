@@ -12,7 +12,7 @@ const EuropeMap = () => {
       name: 'France',
       flag: '🇫🇷',
       users: 487,
-      schools: ['IMT Atlantique', 'IMT Mines Albi', 'IMT Nord Europe', 'Télécom Paris'],
+      schools: ['IMT Atlantique', 'IMT Mines Albi', 'IMT Nord Europe', 'Télécom Paris', 'IMT Mines Saint-Étienne'],
       position: { top: '52%', left: '28%' },
       color: '#e62b1e',
       growth: '+12%'
@@ -22,7 +22,7 @@ const EuropeMap = () => {
       name: 'Germany',
       flag: '🇩🇪',
       users: 312,
-      schools: ['TU Berlin', 'TU Munich', 'RWTH Aachen', 'KIT Karlsruhe'],
+      schools: ['Leibniz Universität Hannover (LUH)', 'TU Berlin', 'TU Munich', 'RWTH Aachen'],
       position: { top: '42%', left: '48%' },
       color: '#1e3a8a',
       growth: '+8%'
@@ -32,7 +32,7 @@ const EuropeMap = () => {
       name: 'Spain',
       flag: '🇪🇸',
       users: 298,
-      schools: ['Universidad Politécnica de Madrid', 'UPC Barcelona', 'Universidad de Sevilla'],
+      schools: ['Universidad Rey Juan Carlos (URJC)', 'Universidad Politécnica de Madrid', 'UPC Barcelona'],
       position: { top: '68%', left: '18%' },
       color: '#f59e0b',
       growth: '+15%'
@@ -42,10 +42,70 @@ const EuropeMap = () => {
       name: 'Finland',
       flag: '🇫🇮',
       users: 156,
-      schools: ['Aalto University', 'University of Helsinki', 'Tampere University'],
+      schools: ['LUT University', 'Aalto University', 'University of Helsinki'],
       position: { top: '22%', left: '58%' },
       color: '#10b981',
       growth: '+6%'
+    },
+    {
+      id: 'austria',
+      name: 'Austria',
+      flag: '🇦🇹',
+      users: 134,
+      schools: ['Technische Universität Wien (TU Wien)', 'University of Vienna'],
+      position: { top: '48%', left: '52%' },
+      color: '#8b5cf6',
+      growth: '+9%'
+    },
+    {
+      id: 'slovakia',
+      name: 'Slovakia',
+      flag: '🇸🇰',
+      users: 89,
+      schools: ['Slovak University of Technology in Bratislava (STU)'],
+      position: { top: '46%', left: '56%' },
+      color: '#f97316',
+      growth: '+7%'
+    },
+    {
+      id: 'czech-republic',
+      name: 'Czech Republic',
+      flag: '🇨🇿',
+      users: 112,
+      schools: ['Brno University of Technology (VUT/BUT)', 'Czech Technical University'],
+      position: { top: '44%', left: '50%' },
+      color: '#06b6d4',
+      growth: '+11%'
+    },
+    {
+      id: 'greece',
+      name: 'Greece',
+      flag: '🇬🇷',
+      users: 78,
+      schools: ['National Technical University of Athens (NTUA)', 'Aristotle University'],
+      position: { top: '72%', left: '62%' },
+      color: '#ec4899',
+      growth: '+5%'
+    },
+    {
+      id: 'italy',
+      name: 'Italy',
+      flag: '🇮🇹',
+      users: 145,
+      schools: ['University of L\'Aquila (UnivAQ)', 'Politecnico di Milano', 'University of Bologna'],
+      position: { top: '58%', left: '45%' },
+      color: '#84cc16',
+      growth: '+13%'
+    },
+    {
+      id: 'sweden',
+      name: 'Sweden',
+      flag: '🇸🇪',
+      users: 92,
+      schools: ['Jönköping University', 'KTH Royal Institute', 'Chalmers University'],
+      position: { top: '28%', left: '54%' },
+      color: '#f43f5e',
+      growth: '+4%'
     }
   ];
 

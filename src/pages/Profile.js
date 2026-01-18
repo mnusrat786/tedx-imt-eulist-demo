@@ -13,9 +13,53 @@ const Profile = ({ user, setUser }) => {
   ];
 
   const schools = [
-    'IMT Atlantique (France)', 'IMT Mines Albi (France)', 'IMT Nord Europe (France)',
-    'TU Berlin (Germany)', 'Universidad Politécnica de Madrid (Spain)',
-    'Aalto University (Finland)', 'KTH Royal Institute (Sweden)'
+    // France - IMT Schools
+    'IMT Atlantique (France)', 
+    'IMT Mines Albi (France)', 
+    'IMT Nord Europe (France)',
+    'Télécom Paris (France)',
+    'IMT Mines Saint-Étienne (France)',
+    
+    // Germany
+    'Leibniz Universität Hannover - LUH (Germany)',
+    'TU Berlin (Germany)',
+    'TU Munich (Germany)',
+    'RWTH Aachen (Germany)',
+    
+    // Spain
+    'Universidad Rey Juan Carlos - URJC (Spain)',
+    'Universidad Politécnica de Madrid (Spain)',
+    'UPC Barcelona (Spain)',
+    
+    // Finland
+    'LUT University (Finland)',
+    'Aalto University (Finland)',
+    'University of Helsinki (Finland)',
+    
+    // Austria
+    'Technische Universität Wien - TU Wien (Austria)',
+    'University of Vienna (Austria)',
+    
+    // Slovakia
+    'Slovak University of Technology in Bratislava - STU (Slovakia)',
+    
+    // Czech Republic
+    'Brno University of Technology - VUT/BUT (Czech Republic)',
+    'Czech Technical University (Czech Republic)',
+    
+    // Greece
+    'National Technical University of Athens - NTUA (Greece)',
+    'Aristotle University (Greece)',
+    
+    // Italy
+    'University of L\'Aquila - UnivAQ (Italy)',
+    'Politecnico di Milano (Italy)',
+    'University of Bologna (Italy)',
+    
+    // Sweden
+    'Jönköping University (Sweden)',
+    'KTH Royal Institute (Sweden)',
+    'Chalmers University (Sweden)'
   ];
 
   const handleSave = () => {

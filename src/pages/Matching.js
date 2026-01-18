@@ -8,7 +8,7 @@ const Matching = ({ user }) => {
     {
       id: 1,
       name: 'Anna Schmidt',
-      school: 'TU Berlin',
+      school: 'Leibniz Universität Hannover',
       country: 'Germany',
       interests: ['AI Ethics', 'Tech for Good', 'Digital Rights'],
       matchScore: 95,
@@ -18,7 +18,7 @@ const Matching = ({ user }) => {
     {
       id: 2,
       name: 'Carlos Rodriguez',
-      school: 'Universidad Politécnica de Madrid',
+      school: 'Universidad Rey Juan Carlos',
       country: 'Spain',
       interests: ['Climate Action', 'Sustainable Development', 'Social Innovation'],
       matchScore: 88,
@@ -28,7 +28,7 @@ const Matching = ({ user }) => {
     {
       id: 3,
       name: 'Elina Virtanen',
-      school: 'Aalto University',
+      school: 'LUT University',
       country: 'Finland',
       interests: ['European Citizenship', 'Cultural Exchange', 'Art & Science'],
       matchScore: 82,
@@ -44,6 +44,46 @@ const Matching = ({ user }) => {
       matchScore: 79,
       bio: 'MBA student researching the impact of automation on society.',
       avatar: '🇫🇷'
+    },
+    {
+      id: 5,
+      name: 'Maria Novák',
+      school: 'Brno University of Technology',
+      country: 'Czech Republic',
+      interests: ['AI Ethics', 'Digital Rights', 'European Citizenship'],
+      matchScore: 91,
+      bio: 'Computer science researcher focusing on privacy-preserving AI.',
+      avatar: '🇨🇿'
+    },
+    {
+      id: 6,
+      name: 'Andreas Weber',
+      school: 'Technische Universität Wien',
+      country: 'Austria',
+      interests: ['Climate Action', 'Future of Work', 'Tech for Good'],
+      matchScore: 85,
+      bio: 'Engineering student developing smart city solutions.',
+      avatar: '🇦🇹'
+    },
+    {
+      id: 7,
+      name: 'Giulia Rossi',
+      school: 'University of L\'Aquila',
+      country: 'Italy',
+      interests: ['Art & Science', 'Cultural Exchange', 'Social Innovation'],
+      matchScore: 77,
+      bio: 'Architecture student interested in sustainable design.',
+      avatar: '🇮🇹'
+    },
+    {
+      id: 8,
+      name: 'Dimitris Papadopoulos',
+      school: 'National Technical University of Athens',
+      country: 'Greece',
+      interests: ['Sustainable Development', 'Climate Action', 'Tech for Good'],
+      matchScore: 83,
+      bio: 'Renewable energy researcher and environmental activist.',
+      avatar: '🇬🇷'
     }
   ]);
 
