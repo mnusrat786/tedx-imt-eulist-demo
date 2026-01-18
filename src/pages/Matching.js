@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Users, MapPin, BookOpen, MessageCircle, Heart } from 'lucide-react';
+import EuropeMap from '../components/EuropeMap';
 import './Matching.css';
 
 const Matching = ({ user }) => {
@@ -105,6 +106,11 @@ const Matching = ({ user }) => {
             </div>
           </div>
         )}
+
+        <div className="european-overview">
+          <h2>European Participant Overview</h2>
+          <EuropeMap />
+        </div>
 
         <div className="matches-section">
           <h2>Recommended Matches</h2>

@@ -1,0 +1,259 @@
+.europe-map-container {
+  background: var(--tedx-card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid var(--tedx-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  margin: 2rem 0;
+}
+
+.map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.map-header h3 {
+  color: var(--tedx-white);
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.total-users {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--tedx-red);
+  font-weight: 600;
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.2) 0%, rgba(230, 43, 30, 0.1) 100%);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.europe-svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.country-markers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.country-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: var(--tedx-card-bg);
+  border: 2px solid var(--tedx-red);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: all;
+  backdrop-filter: blur(10px);
+}
+
+.country-pin:hover,
+.country-pin.active {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 4px 20px rgba(230, 43, 30, 0.4);
+}
+
+.pin-flag {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+
+.pin-count {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--tedx-white);
+}
+
+.country-marker {
+  transition: all 0.3s ease;
+}
+
+.country-marker:hover {
+  opacity: 1 !important;
+  transform: scale(1.2);
+}
+
+.country-details {
+  background: var(--tedx-card-bg);
+  border: 1px solid var(--tedx-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.country-flag {
+  font-size: 2rem;
+}
+
+.country-header h4 {
+  color: var(--tedx-white);
+  margin: 0;
+  flex-grow: 1;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--tedx-light-gray);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: rgba(230, 43, 30, 0.2);
+  color: var(--tedx-red);
+}
+
+.country-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--tedx-light-gray);
+}
+
+.stat svg {
+  color: var(--tedx-red);
+}
+
+.schools-list h5 {
+  color: var(--tedx-white);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.school-item {
+  background: rgba(230, 43, 30, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  color: var(--tedx-white);
+  font-size: 0.9rem;
+  border: 1px solid rgba(230, 43, 30, 0.3);
+}
+
+.map-legend {
+  border-top: 1px solid var(--tedx-border);
+  padding-top: 1rem;
+}
+
+.map-legend h5 {
+  color: var(--tedx-white);
+  margin-bottom: 1rem;
+}
+
+.legend-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--tedx-light-gray);
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .map-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .map-wrapper {
+    height: 300px;
+  }
+  
+  .country-pin {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .pin-flag {
+    font-size: 1rem;
+  }
+  
+  .pin-count {
+    font-size: 0.7rem;
+  }
+  
+  .country-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .legend-items {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

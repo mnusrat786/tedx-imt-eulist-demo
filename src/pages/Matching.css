@@ -24,9 +24,21 @@
   gap: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
-  background-color: var(--tedx-gray);
-  border-radius: 8px;
-  border-left: 4px solid var(--tedx-red);
+  background: var(--tedx-card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid var(--tedx-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.european-overview {
+  margin-bottom: 3rem;
+}
+
+.european-overview h2 {
+  margin-bottom: 1.5rem;
+  color: var(--tedx-white);
+  text-align: center;
 }
 
 .stat-item {

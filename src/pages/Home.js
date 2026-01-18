@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Users, Globe, Calendar, Heart } from 'lucide-react';
+import EuropeMap from '../components/EuropeMap';
 import './Home.css';
 
 const Home = () => {
@@ -73,6 +74,19 @@ const Home = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* European Map Section */}
+      <section className="map-section">
+        <div className="container">
+          <h2 className="section-title text-center">
+            European <span className="text-red">Community</span> Map
+          </h2>
+          <p className="section-description text-center">
+            Discover where our participants are located across the EULiST alliance
+          </p>
+          <EuropeMap />
         </div>
       </section>
 
