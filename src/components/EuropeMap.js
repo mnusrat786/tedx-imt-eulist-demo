@@ -304,8 +304,8 @@ const EuropeMap = () => {
       {/* Enhanced legend */}
       <div className="map-legend">
         <div className="legend-header">
-          <h5>Country Distribution</h5>
-          <span className="legend-subtitle">Click on any country to explore</span>
+          <h5>Countries</h5>
+          <span className="legend-subtitle">Click to explore</span>
         </div>
         <div className="legend-grid">
           {countries.map((country) => (
@@ -322,7 +322,7 @@ const EuropeMap = () => {
               </div>
               <div className="legend-info">
                 <span className="legend-country">{country.name}</span>
-                <span className="legend-count">{country.users} users</span>
+                <span className="legend-count">({country.users})</span>
               </div>
             </div>
           ))}

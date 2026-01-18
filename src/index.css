@@ -18,7 +18,7 @@ body {
   --tedx-black: #000000;
   --tedx-white: #ffffff;
   --tedx-gray: #1a1a1a;
-  --tedx-light-gray: #666666;
+  --tedx-light-gray: #cccccc;
   --tedx-blue: #1e3a8a;
   --tedx-gradient: linear-gradient(135deg, #e62b1e 0%, #1e3a8a 100%);
   --tedx-card-bg: rgba(26, 26, 26, 0.95);
@@ -26,9 +26,17 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+    padding: 0 40px;
+  }
 }
 
 .btn {
