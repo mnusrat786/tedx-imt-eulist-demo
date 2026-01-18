@@ -1,0 +1,329 @@
+.partners {
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+.partners-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.partners-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.partners-header p {
+  font-size: 1.2rem;
+  color: var(--tedx-light-gray);
+  margin-bottom: 2rem;
+}
+
+.wimbledon-rule {
+  background-color: var(--tedx-gray);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--tedx-red);
+  color: var(--tedx-white);
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--tedx-gray);
+  color: var(--tedx-white);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  border-color: var(--tedx-red);
+  color: var(--tedx-red);
+}
+
+.filter-btn.active {
+  background-color: var(--tedx-red);
+  color: var(--tedx-white);
+  border-color: var(--tedx-red);
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.partner-card {
+  background-color: var(--tedx-gray);
+  border-radius: 8px;
+  padding: 2rem;
+  border-left: 4px solid var(--tedx-red);
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+}
+
+.partner-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.partner-logo {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.partner-info h3 {
+  color: var(--tedx-white);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.partner-description {
+  color: var(--tedx-light-gray);
+  line-height: 1.5;
+}
+
+.partner-contribution {
+  margin-bottom: 1.5rem;
+}
+
+.partner-contribution h4 {
+  color: var(--tedx-white);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.contribution-badge {
+  background-color: var(--tedx-red);
+  color: var(--tedx-white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.partner-vision {
+  margin-bottom: 1.5rem;
+}
+
+.partner-vision h4 {
+  color: var(--tedx-white);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.partner-vision p {
+  color: var(--tedx-light-gray);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.partner-impact {
+  margin-bottom: 1.5rem;
+}
+
+.partner-impact h4 {
+  color: var(--tedx-white);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.impact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--tedx-light-gray);
+}
+
+.impact-item svg {
+  color: var(--tedx-red);
+}
+
+.partner-mentors {
+  margin-bottom: 1.5rem;
+}
+
+.partner-mentors h4 {
+  color: var(--tedx-white);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.mentors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mentor-item {
+  background-color: var(--tedx-black);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--tedx-red);
+}
+
+.mentor-name {
+  color: var(--tedx-white);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.mentor-role {
+  color: var(--tedx-light-gray);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.mentor-expertise {
+  color: var(--tedx-red);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.partner-workshops {
+  margin-bottom: 2rem;
+}
+
+.partner-workshops h4 {
+  color: var(--tedx-white);
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.workshops-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.workshop-tag {
+  background-color: var(--tedx-black);
+  color: var(--tedx-white);
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  border: 1px solid var(--tedx-red);
+}
+
+.partner-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.partner-actions .btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.partnership-philosophy {
+  background-color: var(--tedx-gray);
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--tedx-red);
+  margin-bottom: 3rem;
+}
+
+.philosophy-content h2 {
+  text-align: center;
+  color: var(--tedx-white);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.philosophy-item {
+  text-align: center;
+}
+
+.philosophy-icon {
+  color: var(--tedx-red);
+  margin-bottom: 1rem;
+}
+
+.philosophy-item h3 {
+  color: var(--tedx-white);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.philosophy-item p {
+  color: var(--tedx-light-gray);
+  line-height: 1.6;
+}
+
+.become-partner {
+  background: linear-gradient(135deg, var(--tedx-red) 0%, #c41e14 100%);
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--tedx-white);
+}
+
+.become-partner-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.become-partner-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .partners-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .partner-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .partner-actions {
+    flex-direction: column;
+  }
+  
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+}

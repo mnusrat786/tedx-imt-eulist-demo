@@ -1,0 +1,192 @@
+.profile {
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background-color: var(--tedx-gray);
+  border-radius: 8px;
+  border-left: 4px solid var(--tedx-red);
+}
+
+.profile-avatar {
+  background-color: var(--tedx-red);
+  border-radius: 50%;
+  padding: 1.5rem;
+  color: var(--tedx-white);
+}
+
+.profile-info h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-meta {
+  color: var(--tedx-light-gray);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-section {
+  background-color: var(--tedx-gray);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid var(--tedx-red);
+}
+
+.profile-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--tedx-white);
+}
+
+.section-description {
+  color: var(--tedx-light-gray);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.interest-tag {
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--tedx-light-gray);
+  background-color: transparent;
+  color: var(--tedx-white);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.interest-tag:hover {
+  border-color: var(--tedx-red);
+  color: var(--tedx-red);
+}
+
+.interest-tag.selected {
+  background-color: var(--tedx-red);
+  border-color: var(--tedx-red);
+  color: var(--tedx-white);
+}
+
+.interests-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.interest-badge {
+  background-color: var(--tedx-red);
+  color: var(--tedx-white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.school-select {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--tedx-black);
+  color: var(--tedx-white);
+  border: 2px solid var(--tedx-light-gray);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.school-select:focus {
+  outline: none;
+  border-color: var(--tedx-red);
+}
+
+.journey-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.stat-card {
+  background-color: var(--tedx-black);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid var(--tedx-red);
+}
+
+.stat-card .stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--tedx-red);
+  margin-bottom: 0.5rem;
+}
+
+.stat-card .stat-label {
+  color: var(--tedx-light-gray);
+  font-size: 0.9rem;
+}
+
+.registration-status {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--tedx-black);
+  border-radius: 4px;
+}
+
+.status-label {
+  color: var(--tedx-white);
+  font-weight: 500;
+}
+
+.status-value {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-value.pending {
+  background-color: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .journey-stats {
+    grid-template-columns: 1fr;
+  }
+}

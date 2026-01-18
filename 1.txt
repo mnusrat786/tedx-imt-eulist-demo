@@ -1,0 +1,265 @@
+CAHIER DES CHARGES
+Plateforme d'Expérience Communautaire TEDx IMT x EULiST
+1. VISION DU PROJET
+Philosophie centrale
+"Connecter les idées, pas les CV"
+Cette plateforme numérique est conçue comme une extension de la scène TEDx, non comme un outil
+de networking commercial. Elle répond à un défi central : lutter contre la fragmentation sociale et créer
+un sentiment d'appartenance européen à travers le thème "Ce qui nous relie".
+Objectif relationnel, non transactionnel
+L'application vise à créer une expérience utilisateur continue avant, pendant et après l'événement, en
+privilégiant les connexions intellectuelles plutôt que les opportunités professionnelles.
+2. CONTEXTE ET PREUVE DE CONCEPT
+Événement cible
+• 
+• 
+• 
+• 
+Projet : TEDx IMT en partenariat avec EULiST (alliance universitaire européenne)
+Date prévue : Février 2027
+Audience : 1200-1600 participants (étudiants, chercheurs, alumni)
+Partenaires européens : Allemagne, Espagne, Finlande, France
+Référence inspirante
+L'expérience TEDxChampsÉlyséesWomen démontre l'efficacité d'un tel dispositif :
+• 
+• 
+• 
+Jauge similaire (1500 participants)
+Plus de 1000 mises en relation générées
+Gestion réussie de flux complexes (conférence principale + ateliers)
+Notre adaptation
+TEDxChampsÉlyséesWomen
+TEDx IMT x EULiST
+Focus "Business & Empowerment"
+Focus "Connexion intellectuelle & européenne"
+Matching professionnel
+Matching d'idées et d'affinités culturelles
+1
+3. OBJECTIFS STRATÉGIQUES
+La plateforme doit répondre aux trois piliers du projet :
+1. Fédérer les silos
+Briser les barrières géographiques entre étudiants des écoles IMT et partenaires EULiST dispersés en
+Europe.
+2. Prolonger l'impact social
+Transformer l'événement ponctuel en communauté pérenne, au-delà de la journée de février 2027.
+3. Valoriser l'intelligence collective
+Permettre aux participants d'identifier leurs pairs partageant les mêmes centres d'intérêt (IA éthique,
+climat, lien social, etc.).
+4. PARCOURS UTILISATEUR
+Phase 1 : AVANT L'ÉVÉNEMENT
+Objectif : Préparer des rencontres physiques pertinentes
+Fonctionnalités clés
+Profilage par les idées
+• 
+• 
+Inscription basée sur les "centres de curiosité" (Tech for Good, Art & Science, Citoyenneté
+Européenne)
+Pas de CV ni de poste professionnel mis en avant
+Carte interactive EULiST
+• 
+• 
+Visualisation géographique des participants européens
+Découverte des profils par campus (IMT France, partenaires en Finlande, Allemagne, Espagne)
+Gestion des inscriptions
+• 
+• 
+• 
+Réservation pour la conférence principale (800-1200 places)
+Inscription aux ateliers satellites thématiques
+Synchronisation avec le système de billetterie
+Phase 2 : PENDANT L'ÉVÉNEMENT
+Objectif : Faciliter les interactions sans pression commerciale
+2
+Fonctionnalités clés
+Smart Matching par affinités intellectuelles
+• 
+• 
+Algorithme basé sur les thèmes des talks visionnés
+Exemple : "Tu as aimé le talk sur la 'Fragmentation Sociale' ? Voici 3 participants (France, Finlande,
+Espagne) intéressés par ce sujet."
+Interactivité live
+• 
+• 
+• 
+Questions/Réponses en direct pendant les talks
+Réactions et votes pour identifier les sujets "chauds"
+Facilitation des discussions durant les pauses networking
+Gamification "brise-glace"
+• 
+• 
+Défis encourageant les échanges interculturels
+Exemple : "Discute avec un étudiant d'un pays différent du tien"
+Phase 3 : APRÈS L'ÉVÉNEMENT
+Objectif : Transformer l'événement en mouvement durable
+Fonctionnalités clés
+Groupes de discussion thématiques
+• 
+• 
+Prolongation des échanges initiés pendant l'événement
+Organisation par centres d'intérêt identifiés
+Bibliothèque de contenus
+• 
+• 
+• 
+Accès aux replays des talks (YouTube/Plateformes IMT)
+Fiches des speakers avec leurs ressources
+Documents et références partagés
+Fil d'actualité EULiST
+• 
+• 
+• 
+Annonces de projets inter-écoles
+Appels à participation pour hackathons et initiatives collaboratives
+Maintien du lien communautaire européen
+5. CONFORMITÉ TEDx
+Principes absolus (respect de la licence TED)
+✅ AUTORISÉ
+❌ INTERDIT
+Connecter des personnes autour de passions communes
+Vendre des bases de données
+utilisateurs
+3
+✅ AUTORISÉ
+❌ INTERDIT
+Afficher les logos partenaires comme "soutiens"
+Notifications publicitaires pour des
+produits
+Faciliter les relations mentor/étudiant sur des sujets
+académiques
+Jobboard ou CVthèque de recrutement
+Mesurer l'engagement (échanges, thèmes favoris)
+Monétiser les mises en relation
+(freemium)
+6. INTÉGRATION DES PARTENAIRES
+Principe directeur : "The Wimbledon Rule"
+Les partenaires permettent l'existence de l'événement sans jamais l'interrompre commercialement.
+A. Espace "Partenaires de la Réflexion"
+• 
+• 
+• 
+Chaque partenaire présente sa vision du thème "Ce qui nous relie"
+Mise en avant de leur engagement RSE et contribution intellectuelle
+Pas de liens vers offres d'emploi ou formulaires de recrutement
+B. Sponsoring de fonctionnalité (impact visible)
+Valorisation de l'action concrète du partenaire.
+Exemple : Si un sponsor finance la mobilité étudiante européenne, l'application affiche :
+"Le déplacement de 50 étudiants EULiST Paris-Nantes est rendu possible par [Nom du
+Partenaire]"
+C. Experts-Relais communautaires
+• 
+• 
+• 
+Employés des partenaires présents comme "Mentors Idées" ou "Alumni IMT"
+Participation aux discussions thématiques (non commerciales)
+Apport d'une vision terrain sur les sujets débattus
+D. Parrainage d'ateliers satellites
+• 
+• 
+Introduction du partenaire sur le fond du sujet traité
+Pas de pitch commercial
+Tableau comparatif des méthodes
+Méthode classique (❌)
+Méthode TEDx (✅)
+Impact pour le sponsor
+Bannière publicitaire
+Section "Ils soutiennent la
+réflexion"
+Association à l'excellence
+intellectuelle
+4
+Impact pour le sponsor
+Méthode classique (❌)
+Méthode TEDx (✅)
+Bouton "Postuler chez
+nous"
+Pop-up "Devenez
+client"
+Emails marketing
+Profils "Experts" dans les
+débats
+Mise en avant du financement
+mobilité
+Notifications sur talks soutenus
+Accès aux talents via l'échange
+d'idées
+Positionnement comme acteur de
+l'inclusion
+Engagement avec audience qualifiée
+Argumentaire sponsors
+"En rejoignant cette plateforme, vous n'achetez pas de l'affichage publicitaire. Vous investissez
+dans la résolution de la fragmentation sociale européenne. Votre visibilité est ancrée dans le
+contenu intellectuel et la réussite de l'alliance EULiST, garantissant une image de marque
+d'excellence auprès des futurs ingénieurs européens."
+7. SPÉCIFICATIONS TECHNIQUES
+Type de plateforme
+• 
+• 
+Format : Web App (PWA) ou Application mobile native (iOS/Android)
+Principe : Légère, sans configuration complexe requise
+Langues supportées
+• 
+• 
+Anglais (langue officielle EULiST/TEDx)
+Français
+Sécurité et conformité
+• 
+• 
+• 
+RGPD : Conformité absolue (données étudiants européens)
+Hébergement : Données restant dans l'écosystème du projet
+Aucun transfert de données vers des tiers
+Intégrations nécessaires
+• 
+• 
+• 
+Synchronisation avec l'outil de billetterie de l'événement
+API pour la carte géographique interactive
+Système de streaming/replay vidéo
+8. ARGUMENTAIRE POUR LE FINANCEMENT
+Destinataires
+• 
+• 
+Fondation Mines-Télécom
+Alliance EULiST
+5
+Message clé
+"Cet outil n'est pas une dépense logistique, c'est un investissement dans l'impact social du
+projet. Il permet de passer d'une consommation passive de conférences à une création active
+de liens européens. En nous inspirant des meilleurs standards parisiens
+(TEDxChampsÉlyséesWomen) tout en adaptant l'approche à nos valeurs universitaires, nous
+garantissons que chaque euro investi servira à connecter deux esprits, et non à vendre un
+produit. Cette plateforme incarne notre engagement contre la fragmentation sociale et pour la
+construction d'une communauté intellectuelle européenne durable."
+9. INDICATEURS DE SUCCÈS
+Métriques quantitatives
+• 
+• 
+• 
+• 
+Nombre d'inscriptions via la plateforme
+Taux de mises en relation effectuées (objectif : 1000+)
+Nombre de participants actifs dans les groupes post-événement
+Diversité géographique des interactions (mix IMT/EULiST)
+Métriques qualitatives
+• 
+• 
+• 
+Satisfaction utilisateur (enquête post-événement)
+Nombre de projets collaboratifs initiés via la plateforme
+Engagement à long terme (activité 3-6 mois après l'événement)
+ANNEXES
+Glossaire
+• 
+• 
+• 
+EULiST : European University of Technology Alliance (Allemagne, Espagne, Finlande, France)
+IMT : Institut Mines-Télécom (réseau d'écoles d'ingénieurs françaises)
+PWA : Progressive Web App (application web fonctionnant comme une app native)
+Références
+• 
+• 
+• 
+Modèle inspirant : TEDxChampsÉlyséesWomen (Who is Georges)
+Thème événement : "Ce qui nous relie"
+Clause d'impact social : Financement mobilité étudiante européenne
+6
